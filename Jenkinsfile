@@ -3,7 +3,7 @@ pipeline {
     environment {
         GCR_CREDENTIALS_ID = 'projectweek3' // The ID you provided in Jenkins credentials
         IMAGE_NAME = 'osa-test-build'
-        GCR_URL = 'europe-west1-docker.pkg.dev/lbg-mea-20/week3-project-osa/osa-test-build'
+        GCR_URL = 'europe-west1-docker.pkg.dev/lbg-mea-20/week3-project-osa'
     }
     stages {
         stage('Build and Push to GCR') {

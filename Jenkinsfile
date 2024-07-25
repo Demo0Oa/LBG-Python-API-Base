@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         GCR_CREDENTIALS_ID = 'projectweek3' // The ID you provided in Jenkins credentials
-        IMAGE_NAME = 'osa-test-build'
+        IMAGE_NAME = 'osa-test-build-1'
         GCR_URL = 'europe-west1-docker.pkg.dev/lbg-mea-20/week3-project-osa'
     }
     stages {
